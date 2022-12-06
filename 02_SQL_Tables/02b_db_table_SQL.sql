@@ -1,6 +1,6 @@
-/*-----------Strukturen-----*/
+/*-----------Strukturen UNIQUE------*/
 
-/*  */
+/* Datenbanken auf Server anzeigen */
 #SHOW DATABASES;
 
 /* DB MichaelMueller löschen, falls vorhanden*/
@@ -17,7 +17,7 @@ CREATE DATABASE IF NOT EXISTS MichaelMueller;
 CREATE TABLE IF NOT EXISTS MichaelMueller.test
 #CREATE TABLE IF NOT EXISTS test ( entweder USE oder Test
 (
-        name VARCHAR(20) NOT NULL DEFAULT"TBA",
+        name VARCHAR(20) NOT NULL UNIQUE DEFAULT"TBA",
         age INT (3) NOT NULL DEFAULT 0
         
 
