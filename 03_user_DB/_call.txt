@@ -1,1 +1,3 @@
 source 03_user_DB/03_DB_USERDB.sql
+source 03_user_DB/03a_DB_USERDB.sql
+source 03_user_DB/03b_DB_USERDB.sql
